@@ -17,7 +17,7 @@ Whether you have an inquiry regarding my projects, an engineering opportunity, o
   <div class="skill-category-card">
     <h3><i class="fas fa-envelope"></i> Email</h3>
     <p style="margin-bottom: 0.75rem; color: var(--text-muted);">Direct email contact:</p>
-    <a href="mailto:eugiep@gmail.com" class="btn--primary" style="font-size: 0.84rem;">
+    <a href="mailto:eugiep@gmail.com" class="btn--inverse" style="font-size: 0.84rem;">
       eugiep@gmail.com
     </a>
   </div>
@@ -25,8 +25,8 @@ Whether you have an inquiry regarding my projects, an engineering opportunity, o
   <div class="skill-category-card">
     <h3><i class="fab fa-linkedin"></i> LinkedIn</h3>
     <p style="margin-bottom: 0.75rem; color: var(--text-muted);">Professional profile:</p>
-    <a href="https://www.linkedin.com/in/eugeniopasos" target="_blank" rel="noopener noreferrer" class="btn--inverse" style="font-size: 0.84rem;">
-      in/eugeniopasos
+    <a href="https://www.linkedin.com/in/eugenio-pasos" target="_blank" rel="noopener noreferrer" class="btn--inverse" style="font-size: 0.84rem;">
+      linkedin.com/eugenio-pasos
     </a>
   </div>
 

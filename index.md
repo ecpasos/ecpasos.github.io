@@ -11,7 +11,7 @@ feature_row:
     url: "/projects/teleop/"
   - image_path: /assets/images/AMR.png
     alt: "Autonomous Mapping Rover"
-    title: "Autonomous Mapping Rover (AMR)"
+    title: "Autonomous Mapping Rover"
     excerpt: "Omnidirectional 4WD Mecanum indoor mapping robot featuring RPLiDAR, IMU, Kalman filtering, slam_toolbox, and the Nav2 navigation stack."
     url: "/projects/rover/"
   - image_path: /assets/images/pick_and_place.jpg
