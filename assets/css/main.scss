@@ -130,24 +130,11 @@ h1, h2, h3, h4, h5, h6,
   letter-spacing: -0.015em !important;
 }
 
-/* Breadcrumbs Styling */
-.breadcrumbs {
-  margin-bottom: 0.75rem !important;
-  font-size: 0.82rem !important;
-  color: var(--text-muted) !important;
-
-  a {
-    color: var(--text-muted) !important;
-    text-decoration: none !important;
-
-    &:hover {
-      color: var(--text-head) !important;
-    }
-  }
-
-  .current {
-    color: var(--text-head) !important;
-  }
+/* Completely Remove Breadcrumbs across all tabs */
+.breadcrumbs,
+nav.breadcrumbs,
+.page__inner-wrap .breadcrumbs {
+  display: none !important;
 }
 
 /* Horizontal Dividers */

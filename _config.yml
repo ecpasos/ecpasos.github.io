@@ -17,7 +17,7 @@ plugins:
   - jekyll-include-cache
 
 # Page Options
-breadcrumbs: true
+breadcrumbs: false
 words_per_minute: 200
 
 # Author Profile (Sidebar)
@@ -63,6 +63,7 @@ defaults:
     values:
       layout: "single"
       author_profile: true
+      breadcrumbs: false
       read_time: false
       comments: false
       share: false
@@ -73,6 +74,7 @@ defaults:
     values:
       layout: "single"
       author_profile: true
+      breadcrumbs: false
       read_time: false
       comments: false
       share: false
