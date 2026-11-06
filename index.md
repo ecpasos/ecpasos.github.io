@@ -1,6 +1,8 @@
 ---
 layout: single
+title: "Featured Projects"
 author_profile: true
+breadcrumbs: false
 feature_row:
   - image_path: /assets/images/teleop.jpg
     alt: "Robotic Arm and Hand Teleoperation"
@@ -23,8 +25,6 @@ feature_row:
     excerpt: "Hardware-in-the-loop testbench integrating an OEM instrument cluster, drive-by-wire pedal ADC, and dual STM32 MCUs over CAN 2.0B."
     url: "/projects/mock_driving_simulator/"
 ---
-
-## Featured Projects
 
 {% include feature_row id="feature_row" %}
 

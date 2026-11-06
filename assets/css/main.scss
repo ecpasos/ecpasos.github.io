@@ -95,15 +95,66 @@ html, body {
 }
 
 .page__title:empty,
-.layout--single > .page__header,
 .page__header:empty {
   display: none !important;
 }
 
-.page__content > h2:first-child,
-.page__content > h1:first-child {
+/* Page Titles & Headers: Pure High-Contrast & Legibility */
+.page__title,
+.page__title a,
+#page-title,
+#page-title a {
+  color: var(--text-head) !important;
+  font-size: 1.65rem !important;
+  font-weight: 700 !important;
+  line-height: 1.25 !important;
+  letter-spacing: -0.02em !important;
+  text-decoration: none !important;
   margin-top: 0 !important;
-  padding-top: 0 !important;
+  margin-bottom: 0.85rem !important;
+  display: block !important;
+}
+
+.page__inner-wrap header {
+  margin-bottom: 1.25rem !important;
+  border-bottom: none !important;
+}
+
+h1, h2, h3, h4, h5, h6,
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4 {
+  color: var(--text-head) !important;
+  border-bottom: none !important;
+  letter-spacing: -0.015em !important;
+}
+
+/* Breadcrumbs Styling */
+.breadcrumbs {
+  margin-bottom: 0.75rem !important;
+  font-size: 0.82rem !important;
+  color: var(--text-muted) !important;
+
+  a {
+    color: var(--text-muted) !important;
+    text-decoration: none !important;
+
+    &:hover {
+      color: var(--text-head) !important;
+    }
+  }
+
+  .current {
+    color: var(--text-head) !important;
+  }
+}
+
+/* Horizontal Dividers */
+hr, .page__content hr {
+  border: none !important;
+  border-top: 1px solid var(--border-subtle) !important;
+  margin: 2.25rem 0 !important;
 }
 
 /* ==========================================================================
@@ -298,7 +349,22 @@ html, body {
   color: var(--text-muted) !important;
   font-size: 0.86rem !important;
   line-height: 1.55 !important;
-  margin-bottom: 1rem !important;
+  margin-bottom: 0.75rem !important;
+}
+
+/* Remove Follow button completely and keep contact links visible */
+.author__urls-wrapper button,
+.author__urls-wrapper .btn,
+.author__urls-button,
+.author__follow-button,
+.author__follow {
+  display: none !important;
+}
+
+.author__urls-wrapper ul,
+.author__urls {
+  display: block !important;
+  margin-top: 0.25rem !important;
 }
 
 .author__urls {
@@ -377,8 +443,9 @@ html, body {
   grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
   gap: 1.25rem !important;
   margin-top: 1rem !important;
-  margin-bottom: 2.5rem !important;
+  margin-bottom: 2rem !important;
   width: 100% !important;
+  border-bottom: none !important;
 
   @media (max-width: 900px) {
     grid-template-columns: 1fr !important;
