@@ -24,22 +24,7 @@ feature_row:
     url: "/projects/mock_driving_simulator/"
 ---
 
-<div class="hero-banner">
-  <div class="hero-eyebrow">Robotics & Electrical Systems</div>
-  <h1>Engineering Intelligent Autonomous & Embedded Systems</h1>
-  <p>
-    Welcome to my portfolio. I specialize in designing and prototyping physical systems from the transistor and firmware level to high-level motion planning — spanning <strong>real-time embedded firmware (STM32/CAN)</strong>, <strong>ROS 2 navigation & SLAM</strong>, and <strong>computer vision-driven manipulation</strong>.
-  </p>
-  <div class="hero-actions">
-    <a href="#projects" class="btn--primary">View Projects</a>
-    <a href="/resume/" class="btn--inverse">Resume & Experience</a>
-    <a href="/contact/" class="btn--inverse">Contact</a>
-  </div>
-</div>
-
-## Selected Projects {#projects}
-
-Engineering case studies detailing end-to-end architectures, hardware schematics, control pipelines, and verification benchmarks.
+## Featured Projects
 
 {% include feature_row id="feature_row" %}
 
