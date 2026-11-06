@@ -32,6 +32,7 @@ feature_row:
   </p>
   <div class="hero-actions">
     <a href="#featured-projects" class="btn--primary">View Featured Projects</a>
+    <a href="/projects/template/" class="btn--inverse"><i class="fas fa-file-code"></i> Project Template</a>
     <a href="/resume/" class="btn--inverse">View Resume & Experience</a>
     <a href="/contact/" class="btn--inverse">Contact Me</a>
   </div>
@@ -58,9 +59,22 @@ feature_row:
 
 ## Featured Engineering Projects {#featured-projects}
 
-A selection of robotics and embedded engineering projects demonstrating end-to-end integration:
+A selection of robotics and embedded engineering projects demonstrating end-to-end integration. Each project contains comprehensive documentation adhering to professional engineering standards:
+
+<div class="tech-pill-container" style="margin-bottom: 1.25rem;">
+  <span class="tech-pill cyan"><i class="fas fa-play-circle"></i> Video Demonstration & Telemetry</span>
+  <span class="tech-pill indigo"><i class="fas fa-project-diagram"></i> Interactive System Block Diagrams</span>
+  <span class="tech-pill emerald"><i class="fas fa-microchip"></i> Hardware Schematics & Pinouts</span>
+  <span class="tech-pill amber"><i class="fas fa-list-ol"></i> Complete Bill of Materials (BOM)</span>
+</div>
 
 {% include feature_row id="feature_row" %}
+
+<div class="highlight-box">
+  <p>
+    <strong>Looking for a standardized case study structure?</strong> Review the <a href="/projects/template/">Robotics & Embedded Systems Project Template</a>. It outlines the complete documentation blueprint with embedded video demo containers, Mermaid system block diagrams, microcontroller wiring schematics, and FMEA tables.
+  </p>
+</div>
 
 ---
 
@@ -125,6 +139,6 @@ A selection of robotics and embedded engineering projects demonstrating end-to-e
 
 <div class="highlight-box">
   <p>
-    <strong>Looking for detailed documentation?</strong> Each project above contains in-depth breakdowns including system architectures, hardware schematics, software pipelines, and implementation challenges. You can also review my complete work history on my <a href="/resume/">Experience & Resume</a> page.
+    <strong>Want to connect?</strong> You can review my complete work history on my <a href="/resume/">Experience & Resume</a> page or reach out directly via my <a href="/contact/">Contact page</a>.
   </p>
 </div>

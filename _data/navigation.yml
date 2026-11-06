@@ -2,6 +2,8 @@
 main:
   - title: "Home"
     url: /
+  - title: "Project Template"
+    url: /projects/template/
   - title: "About"
     url: /about/
   - title: "Resume"
