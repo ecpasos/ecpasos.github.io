@@ -38,33 +38,3 @@ Whether you have an inquiry regarding my projects, an engineering opportunity, o
     </a>
   </div>
 </div>
-
----
-
-## Send a Message
-
-<form action="https://formspree.io/f/placeholder" method="POST" style="background: var(--bg-card); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border-subtle); max-width: 600px; margin-top: 1rem;">
-  <div style="margin-bottom: 1.2rem;">
-    <label for="name" style="display: block; margin-bottom: 0.35rem; color: var(--text-head); font-weight: 500; font-size: 0.88rem;">Name</label>
-    <input type="text" id="name" name="name" required placeholder="Your Name" style="width: 100%; padding: 0.55rem 0.75rem; background: rgba(0, 0, 0, 0.3); border: 1px solid var(--border-subtle); border-radius: 6px; color: var(--text-head); font-size: 0.9rem; box-sizing: border-box;">
-  </div>
-
-  <div style="margin-bottom: 1.2rem;">
-    <label for="email" style="display: block; margin-bottom: 0.35rem; color: var(--text-head); font-weight: 500; font-size: 0.88rem;">Email</label>
-    <input type="email" id="email" name="_replyto" required placeholder="you@example.com" style="width: 100%; padding: 0.55rem 0.75rem; background: rgba(0, 0, 0, 0.3); border: 1px solid var(--border-subtle); border-radius: 6px; color: var(--text-head); font-size: 0.9rem; box-sizing: border-box;">
-  </div>
-
-  <div style="margin-bottom: 1.2rem;">
-    <label for="subject" style="display: block; margin-bottom: 0.35rem; color: var(--text-head); font-weight: 500; font-size: 0.88rem;">Subject</label>
-    <input type="text" id="subject" name="subject" required placeholder="Engineering Inquiry" style="width: 100%; padding: 0.55rem 0.75rem; background: rgba(0, 0, 0, 0.3); border: 1px solid var(--border-subtle); border-radius: 6px; color: var(--text-head); font-size: 0.9rem; box-sizing: border-box;">
-  </div>
-
-  <div style="margin-bottom: 1.5rem;">
-    <label for="message" style="display: block; margin-bottom: 0.35rem; color: var(--text-head); font-weight: 500; font-size: 0.88rem;">Message</label>
-    <textarea id="message" name="message" rows="5" required placeholder="Your message here..." style="width: 100%; padding: 0.55rem 0.75rem; background: rgba(0, 0, 0, 0.3); border: 1px solid var(--border-subtle); border-radius: 6px; color: var(--text-head); font-size: 0.9rem; box-sizing: border-box; resize: vertical;"></textarea>
-  </div>
-
-  <button type="submit" class="btn--primary">
-    Send Message
-  </button>
-</form>
