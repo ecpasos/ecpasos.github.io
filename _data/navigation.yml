@@ -1,9 +1,7 @@
-# Main Navigation Links for Minimal Mistakes
+# Main Navigation Links
 main:
   - title: "Home"
     url: /
-  - title: "Project Template"
-    url: /projects/template/
   - title: "About"
     url: /about/
   - title: "Resume"

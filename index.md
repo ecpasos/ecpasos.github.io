@@ -5,7 +5,7 @@ feature_row:
   - image_path: /assets/images/teleop.jpg
     alt: "Robotic Arm and Hand Teleoperation"
     title: "Robotic Arm & Hand Teleoperation"
-    excerpt: "3D vision-based arm and dexterous hand teleoperation proof-of-concept utilizing MediaPipe landmark tracking, ROS 2, and low-latency joint mapping."
+    excerpt: "3D vision-based arm and dexterous hand teleoperation platform utilizing MediaPipe landmark tracking, ROS 2, and low-latency joint mapping."
     url: "/projects/teleop/"
   - image_path: /assets/images/AMR.png
     alt: "Autonomous Mapping Rover"
@@ -15,66 +15,33 @@ feature_row:
   - image_path: /assets/images/pick_and_place.jpg
     alt: "Vision Pick and Place Robot"
     title: "Autonomous Vision Pick & Place"
-    excerpt: "Multi-DOF robotic manipulator performing automated color-based sorting and classification using OpenCV, Inverse Kinematics (IK), and state-machine control."
+    excerpt: "Multi-DOF robotic manipulator performing automated color-based sorting using OpenCV, Analytical Inverse Kinematics, and state-machine control."
     url: "/projects/pick_and_place/"
   - image_path: /assets/images/mock_driving.png
     alt: "Mock Driving Simulator"
     title: "Automotive Mock Driving Simulator"
-    excerpt: "Automotive embedded systems project integrating an OEM cluster, drive-by-wire pedal ADC, and dual STM32 MCUs over CAN, SPI, and I2C."
+    excerpt: "Hardware-in-the-loop testbench integrating an OEM instrument cluster, drive-by-wire pedal ADC, and dual STM32 MCUs over CAN 2.0B."
     url: "/projects/mock_driving_simulator/"
 ---
 
 <div class="hero-banner">
-  <div class="hero-tagline">BRIDGING EMBEDDED HARDWARE & ROBOTIC AUTONOMY</div>
-  <h1>Engineering Intelligent Robotic & Embedded Systems</h1>
+  <div class="hero-eyebrow">Robotics & Electrical Systems</div>
+  <h1>Engineering Intelligent Autonomous & Embedded Systems</h1>
   <p>
-    Welcome to my engineering portfolio. I specialize in designing and prototyping end-to-end autonomous systems — spanning <strong>real-time embedded firmware (STM32/CAN)</strong>, <strong>ROS 2 navigation & SLAM</strong>, and <strong>computer vision-driven manipulation</strong>. From circuit design and sensor integration to high-level motion planning, I build robust systems that interact dynamically with the physical world.
+    Welcome to my portfolio. I specialize in designing and prototyping physical systems from the transistor and firmware level to high-level motion planning — spanning <strong>real-time embedded firmware (STM32/CAN)</strong>, <strong>ROS 2 navigation & SLAM</strong>, and <strong>computer vision-driven manipulation</strong>.
   </p>
   <div class="hero-actions">
-    <a href="#featured-projects" class="btn--primary">View Featured Projects</a>
-    <a href="/projects/template/" class="btn--inverse"><i class="fas fa-file-code"></i> Project Template</a>
-    <a href="/resume/" class="btn--inverse">View Resume & Experience</a>
-    <a href="/contact/" class="btn--inverse">Contact Me</a>
+    <a href="#projects" class="btn--primary">View Projects</a>
+    <a href="/resume/" class="btn--inverse">Resume & Experience</a>
+    <a href="/contact/" class="btn--inverse">Contact</a>
   </div>
 </div>
 
-<div class="stat-grid">
-  <div class="stat-card">
-    <div class="stat-number">4+</div>
-    <div class="stat-label">Hardware Builds</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">ROS 2</div>
-    <div class="stat-label">Nav2 & SLAM</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">STM32</div>
-    <div class="stat-label">CAN & Firmware</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">Vision</div>
-    <div class="stat-label">OpenCV & MediaPipe</div>
-  </div>
-</div>
+## Selected Projects {#projects}
 
-## Featured Engineering Projects {#featured-projects}
-
-A selection of robotics and embedded engineering projects demonstrating end-to-end integration. Each project contains comprehensive documentation adhering to professional engineering standards:
-
-<div class="tech-pill-container" style="margin-bottom: 1.25rem;">
-  <span class="tech-pill cyan"><i class="fas fa-play-circle"></i> Video Demonstration & Telemetry</span>
-  <span class="tech-pill indigo"><i class="fas fa-project-diagram"></i> Interactive System Block Diagrams</span>
-  <span class="tech-pill emerald"><i class="fas fa-microchip"></i> Hardware Schematics & Pinouts</span>
-  <span class="tech-pill amber"><i class="fas fa-list-ol"></i> Complete Bill of Materials (BOM)</span>
-</div>
+Engineering case studies detailing end-to-end architectures, hardware schematics, control pipelines, and verification benchmarks.
 
 {% include feature_row id="feature_row" %}
-
-<div class="highlight-box">
-  <p>
-    <strong>Looking for a standardized case study structure?</strong> Review the <a href="/projects/template/">Robotics & Embedded Systems Project Template</a>. It outlines the complete documentation blueprint with embedded video demo containers, Mermaid system block diagrams, microcontroller wiring schematics, and FMEA tables.
-  </p>
-</div>
 
 ---
 
@@ -84,61 +51,52 @@ A selection of robotics and embedded engineering projects demonstrating end-to-e
   <div class="skill-category-card">
     <h3><i class="fas fa-robot"></i> Robotics & Autonomy</h3>
     <div class="tech-pill-container">
-      <span class="tech-pill cyan">ROS 2 (Humble/Iron)</span>
-      <span class="tech-pill cyan">Nav2 Navigation Stack</span>
-      <span class="tech-pill cyan">slam_toolbox</span>
-      <span class="tech-pill cyan">MoveIt 2</span>
-      <span class="tech-pill cyan">Kinematics & Dynamics</span>
-      <span class="tech-pill cyan">Sensor Fusion (EKF)</span>
-      <span class="tech-pill cyan">URDF / Xacro</span>
-      <span class="tech-pill cyan">Gazebo Simulation</span>
+      <span class="tech-pill">ROS 2 (Humble)</span>
+      <span class="tech-pill">Nav2 Stack</span>
+      <span class="tech-pill">slam_toolbox</span>
+      <span class="tech-pill">MoveIt 2</span>
+      <span class="tech-pill">Kinematics & Dynamics</span>
+      <span class="tech-pill">Sensor Fusion (EKF)</span>
+      <span class="tech-pill">URDF / Gazebo</span>
     </div>
   </div>
 
   <div class="skill-category-card">
-    <h3><i class="fas fa-microchip"></i> Embedded Systems & Firmware</h3>
+    <h3><i class="fas fa-microchip"></i> Embedded Firmware</h3>
     <div class="tech-pill-container">
-      <span class="tech-pill emerald">STM32 (ARM Cortex-M)</span>
-      <span class="tech-pill emerald">ESP32 / FreeRTOS</span>
-      <span class="tech-pill emerald">CAN Bus (CAN 2.0B)</span>
-      <span class="tech-pill emerald">SPI / I2C / UART</span>
-      <span class="tech-pill emerald">Bare-Metal C / C++</span>
-      <span class="tech-pill emerald">DMA & Interrupt Timers</span>
-      <span class="tech-pill emerald">PWM Motor Drivers</span>
-      <span class="tech-pill emerald">micro-ROS</span>
+      <span class="tech-pill">STM32 (ARM Cortex-M)</span>
+      <span class="tech-pill">ESP32 / FreeRTOS</span>
+      <span class="tech-pill">CAN Bus (CAN 2.0B)</span>
+      <span class="tech-pill">SPI / I2C / UART</span>
+      <span class="tech-pill">Bare-Metal C / C++</span>
+      <span class="tech-pill">DMA & Interrupt Timers</span>
+      <span class="tech-pill">PWM Drivers</span>
     </div>
   </div>
 
   <div class="skill-category-card">
-    <h3><i class="fas fa-eye"></i> Perception & Computer Vision</h3>
+    <h3><i class="fas fa-eye"></i> Vision & Perception</h3>
     <div class="tech-pill-container">
-      <span class="tech-pill indigo">OpenCV (C++ / Python)</span>
-      <span class="tech-pill indigo">Google MediaPipe</span>
-      <span class="tech-pill indigo">RPLiDAR 2D Scanning</span>
-      <span class="tech-pill indigo">RGB-D Depth Sensing</span>
-      <span class="tech-pill indigo">HSV Color Segmentation</span>
-      <span class="tech-pill indigo">Hand & Pose Estimation</span>
-      <span class="tech-pill indigo">Coordinate Frame TF2</span>
+      <span class="tech-pill">OpenCV (C++ / Python)</span>
+      <span class="tech-pill">Google MediaPipe</span>
+      <span class="tech-pill">RPLiDAR 2D Scanning</span>
+      <span class="tech-pill">RGB-D Depth Sensing</span>
+      <span class="tech-pill">HSV Segmentation</span>
+      <span class="tech-pill">Pose Estimation</span>
+      <span class="tech-pill">Homography Calibration</span>
     </div>
   </div>
 
   <div class="skill-category-card">
     <h3><i class="fas fa-tools"></i> Hardware & Tooling</h3>
     <div class="tech-pill-container">
-      <span class="tech-pill amber">PCB Schematic & Layout</span>
-      <span class="tech-pill amber">Oscilloscopes & Logic Analyzers</span>
-      <span class="tech-pill amber">Soldering & Wire Harnessing</span>
-      <span class="tech-pill amber">3D Printing (CAD/Slicing)</span>
-      <span class="tech-pill amber">Git / GitHub Actions</span>
-      <span class="tech-pill amber">Docker Containers</span>
-      <span class="tech-pill amber">Linux (Ubuntu)</span>
-      <span class="tech-pill amber">MATLAB / Simulink</span>
+      <span class="tech-pill">Schematic & PCB Layout</span>
+      <span class="tech-pill">Oscilloscopes & Logic Analyzers</span>
+      <span class="tech-pill">Wire Harnessing & Soldering</span>
+      <span class="tech-pill">3D CAD & Prototyping</span>
+      <span class="tech-pill">Git / CI/CD</span>
+      <span class="tech-pill">Linux (Ubuntu)</span>
+      <span class="tech-pill">Docker</span>
     </div>
   </div>
-</div>
-
-<div class="highlight-box">
-  <p>
-    <strong>Want to connect?</strong> You can review my complete work history on my <a href="/resume/">Experience & Resume</a> page or reach out directly via my <a href="/contact/">Contact page</a>.
-  </p>
 </div>

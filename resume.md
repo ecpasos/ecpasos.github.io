@@ -5,39 +5,31 @@ permalink: /resume/
 author_profile: true
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem;">
+<div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem; border-bottom: 1px solid var(--border-subtle); padding-bottom: 1rem;">
   <div>
-    <h2 style="margin: 0;">Eugenio Pasos</h2>
-    <span style="color: var(--accent-cyan); font-weight: 500;">Electrical & Robotics Systems Engineer</span>
+    <h2 style="margin: 0; font-size: 1.5rem; color: var(--text-head);">Eugenio Pasos</h2>
+    <span style="color: var(--text-muted); font-size: 0.92rem; font-weight: 500;">Electrical & Robotics Systems Engineer</span>
   </div>
   <div>
-    <a href="mailto:eugiep@gmail.com" class="btn--primary"><i class="fas fa-envelope"></i> Contact Me</a>
+    <a href="mailto:eugiep@gmail.com" class="btn--primary"><i class="fas fa-envelope"></i> Contact</a>
   </div>
 </div>
 
-<div class="highlight-box">
-  <p>
-    <em>Note: This is an interactive overview of my background, skills, and engineering experience. All placeholder dates and institutions can be tailored to match your specific background.</em>
-  </p>
-</div>
-
----
-
-## 🛠 Technical Competency Matrix
+## Technical Competencies
 
 | Category | Technologies & Tools |
 | :--- | :--- |
-| **Robotics Frameworks** | ROS 2 (Humble/Iron), Nav2, slam_toolbox, MoveIt 2, URDF/Xacro, Gazebo, micro-ROS |
-| **Embedded & Microcontrollers** | STM32 (ARM Cortex-M), ESP32, Arduino, FreeRTOS, Bare-Metal C/C++, DMA, Timers |
+| **Robotics Frameworks** | ROS 2 (Humble), Nav2, slam_toolbox, MoveIt 2, URDF/Xacro, Gazebo, micro-ROS |
+| **Embedded & Microcontrollers** | STM32 (ARM Cortex-M), ESP32, Arduino, FreeRTOS, Bare-Metal C/C++, DMA, Hardware Timers |
 | **Protocols & Buses** | CAN Bus (CAN 2.0B / ISO 11898), SPI, I2C, UART/USART, PWM, TCP/IP, UDP |
 | **Vision & Perception** | OpenCV (C++/Python), Google MediaPipe, RPLiDAR 2D, RGB-D Depth Cameras, Homography |
 | **Programming Languages** | C, C++, Python, MATLAB, Bash Shell Scripting, Git, Markdown |
 | **Hardware & Lab Equipment** | Digital Storage Oscilloscopes, Logic Analyzers, Multimeters, SMD Soldering, PCB Prototyping |
-| **Software & DevOps** | Linux (Ubuntu), Docker Containerization, CMake, VS Code, Git/GitHub, STM32CubeIDE |
+| **Software & Tooling** | Linux (Ubuntu), Docker Containerization, CMake, VS Code, Git/GitHub, STM32CubeIDE |
 
 ---
 
-## 💼 Engineering Experience
+## Engineering Experience
 
 <div class="timeline">
 
@@ -81,7 +73,7 @@ author_profile: true
 
 ---
 
-## 🎓 Education
+## Education
 
 <div class="timeline">
   <div class="timeline-item">
@@ -98,7 +90,7 @@ author_profile: true
 
 ---
 
-## 🏆 Key Engineering Achievements
+## Selected Engineering Highlights
 
 * **Omnidirectional Navigation Platform:** Built and tuned a complete 4-wheel Mecanum AMR utilizing EKF sensor fusion to eliminate odometry slip drift.
 * **Low-Latency Teleoperation Pipeline:** Realized an end-to-end latency of &lt;35 ms between human hand gesture capture and physical robotic joint movement.
