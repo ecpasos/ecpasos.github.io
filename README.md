@@ -2,7 +2,7 @@
 
 Personal engineering portfolio website built for **GitHub Pages** using **Jekyll** and the **[Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/)** theme (`dark` skin).
 
-**Live Site:** [https://eugeniopasos.github.io](https://ecpasos.github.io)
+**Live Site:** [https://ecpasos.github.io](https://ecpasos.github.io)
 
 ---
 
